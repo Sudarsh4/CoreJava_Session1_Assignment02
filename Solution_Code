@@ -1,0 +1,28 @@
+
+public class Assignment_102 {
+
+	public static void main(String[] args) {
+	
+		// Declaring and initializing the variables
+		int a = 20;
+		// Capturing the initial value of a
+		System.out.println("Initial Value of a = "+a);
+		
+		int b = 10;
+		// Capturing the initial value of b
+		System.out.println("Initial Value of b = "+b);
+		
+		// Expressions from the assignment
+		b = a-- - --a;		// duplicate declaration of the variable not allowed
+		int c = a--;
+		int d = a >> 2;
+		int e = a & b;
+		
+		// Printing the values in different lines along with expressions
+		System.out.println("The Expression Values are \n     a = "+a+"\n int b = a-- - --a = "+b+"\n int c = a-- = "+c+"\n int d = a >> 2 = "+d+"\n int e = a & b = "+e);
+		// Ending the Program
+		System.out.println("\n ---=={End of Program}==---");
+		
+	}
+
+}
